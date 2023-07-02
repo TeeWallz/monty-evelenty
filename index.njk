@@ -1,0 +1,44 @@
+{% extends "_includes/default.njk" %}
+
+{% block title %}It does work{% endblock %}
+
+{% block content %}
+    <div>
+        <header>
+            <img src="assets/images/general/MontyHeader.png">
+        </header>
+
+        <section>
+            <div class="mx-auto mt-4 pt-2">
+                {# <div class="w-auto transform scale-y-75"> #}
+                <div class="flex items-center justify-center">
+                    <img src="assets/images/general/FRboxing.gif" style="position: absolute; margin-right: 245px;">
+                    <div id="current_streak_number" style="  height: 100px;  font-size: 350%;  text-align: center;}">
+                        1
+                    </div>
+                    <img class="wreath" src="assets/images/general/wreath.png">
+                </div>
+                <div class="">
+                    As of 16th June 2023
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <heading>Current ''''CHAMPION'''''</heading>
+            <div class="frame">
+            <img class="chump_image" src="assets/images/chumps/large/2019-01-23.jpg" alt="Mona Lisa" />
+            </div>
+            </div>
+
+
+            <p>
+                <a 
+                ></a>
+            </p>
+        </section>
+
+        <span x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></span><br/>
+
+    </div>
+{% endblock %}
